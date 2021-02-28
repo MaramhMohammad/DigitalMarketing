@@ -1,30 +1,64 @@
-#demo{
-    border: seagreen;
-    border-radius: 40px;
-    border-style: groove;
+#mytitle{
+     
+    
+    font: 300 18px/1.666666666667em geomanist,Helvetica,Arial;
+    padding: 15px;   
+    color: inherit;
+    text-decoration: none;
+    
   }
-  .nav-item {
+.nav {
+    background-color: aliceblue;
+
     font-weight: bolder;
     display: inline-block;
+    
     margin: 50px;
   }
-  /* a:link{
-    color: hotpink;
-  } */
-  a:visited{
-    color: hotpink;
-  }
-  a{
+ 
+ /* a:visited{
+    color:  #f13434;
+  }*/
+
+a{
     text-decoration: none;
+  }
+
+nav{
+    
+      /* background image */
+  background-image: url("https://wallpaperaccess.com/full/1308934.jpg");
+
+  min-height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
   
+#greet{
+      padding: 15px;    
+      color: #3a3b3a;
+      font-size: 1.6rem;
+      font-family: 'AvertaStd', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      line-height: 1.75;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    
+    
+   }
+  
+#paragraph {
+    
+  
+      font-weight: bold;
+      color: blue;
+      font-family: 'AvertaStd';
+      padding: 15px;  
+      line-height: 1.2;
+    
   }
-  nav{
-    background-color: gray;
+body.is-pushed {
+    padding-top: 9rem;
   }
   
-  #greet{
-    border: sienna;
-    border-style: solid;
-    padding: 15px;
-    display: inline-block;
-  }
